@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+      function test()
+      {  
+      document.getElementById("dv").style="width:80%; height:auto; margin:auto; padding:26px; background-color:aqua";
+     
+      document.getElementById("btn").style="width:15%; height:auto; margin:auto; padding:5px; background-color:white; border:none";
+
+      document.getElementById("btn1").style="width:15%; height:auto; margin:auto; padding:5px; background-color:red; border:none; color:white";
+      
+      document.getElementById("btn2").style="width:15%; height:auto; margin:auto; padding:5px; background-color:yellow; border:none; color:black";
+
+      
+      document.getElementById("btn3").style="width:15%; height:auto; margin:auto; padding:5px; background-color:orange; border:none; color:white";
+
+      
+      document.getElementById("btn4").style="width:15%; height:auto; margin:auto; padding:5px; background-color:orange; border:none; color:white";
+     
+      }
+
+      function add()
+      {
+        // type casting method
+        var a=parseInt(prompt("Enter a values :"));
+        var b=parseInt(prompt("Enter b values :"));
+
+        var c=a+b;
+        alert("Additions of numbers is :"+c);
+      }
+
+      function subs()
+      {
+        // type casting method
+        var a=parseInt(prompt("Enter a values :"));
+        var b=parseInt(prompt("Enter b values :"));
+        
+        var c=a-b;
+        alert("Substractions of numbers is :"+c);
+      }
+
+      function mult()
+      {
+        // type casting method
+        var a=parseInt(prompt("Enter a values :"));
+        var b=parseInt(prompt("Enter b values :"));
+        
+        var c=a*b;
+        alert("Multiplications of numbers is :"+c);
+      }
+
+      function add()
+      {
+        // type casting method
+        var a=parseInt(prompt("Enter a values :"));
+        var b=parseInt(prompt("Enter b values :"));
+        
+        var c=a+b;
+        alert("Additions of numbers is :"+c);
+      }
+
+      function dv()
+      {
+        // type casting method
+        var a=parseInt(prompt("Enter a values :"));
+        var b=parseInt(prompt("Enter b values :"));
+        
+        var c=a/b;
+        alert("Divisions of numbers is :"+c);
+      }
+
+      function mod()
+      {
+        // type casting method
+        var a=parseInt(prompt("Enter a values :"));
+        var b=parseInt(prompt("Enter b values :"));
+        
+        var c=a%b;
+        alert("Modulas of numbers is :"+c);
+      }
+    </script>
+</head>
+<body onload="test()">
+
+    <div id="dv">
+    <h3 align="center">Calculator</h3>
+    <button type="button" id="btn" onclick="add()">Additions </button>
+    <button type="button" id="btn1" onclick="subs()">Substractions </button>
+    <button type="button" id="btn2" onclick="dv()">Divisions </button>
+    <button type="button" id="btn3" onclick="mult()">Multiplications </button>
+    <button type="button" id="btn4" onclick="mod()">Modulas </button>
+    </div>
+</body>
+</html>

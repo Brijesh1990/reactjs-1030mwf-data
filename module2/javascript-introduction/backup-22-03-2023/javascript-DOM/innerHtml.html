@@ -1,0 +1,21 @@
+<script>
+    function ad()
+    {
+        var a=parseInt(document.getElementById("n1").value);
+        var b=parseInt(document.getElementById("n2").value);
+        var c=a+b;
+       document.getElementById("demo").innerHTML="Additions of numbers is :"+c;
+    }
+    </script>
+    <center>
+     <p id="demo"></p>   
+    <form method="post">
+        Enter a values :<input type="text" name="n1" id="n1" placeholder="Enter a values">
+        <br><br>
+        Enter a values :<input type="text" name="n1" id="n2" placeholder="Enter a values">
+        <br><br>
+
+        <button type="button" onclick="ad()">Add Numbers</button>
+        
+    </form>
+    </center>

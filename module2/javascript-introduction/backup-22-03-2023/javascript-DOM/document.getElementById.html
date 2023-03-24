@@ -1,0 +1,22 @@
+<script>
+    function test()
+    {
+        document.getElementById("bg").style="background-color:aqua";
+    }
+    function nm()
+    {
+        var name="Brijesh kumar pandey";
+       document.getElementById("nm").innerHTML="Your name is :"+name;
+       document.getElementById("nm").style="color:red; transition:2s ease all; font-size:25px";
+               
+    }
+</script>
+<body id="bg" onload="test()">
+
+ 
+    <center>
+        <p id="nm"></p>
+        <button type="button" onclick="nm()">Print Name</button>
+    </center>
+
+</body>
