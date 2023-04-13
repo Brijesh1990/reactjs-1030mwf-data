@@ -1,13 +1,16 @@
 <script>
-    // if else  : if are executed when condition is true if condition is false else is executed 
+    // nested if  :if within another if i.e called nested if or condition within another condition i.e called nested if conditions  
     // syntax:
     //     if(condition)
     //     {
+    //         if(condition)
+    //         { 
     //         statements;
-    //     }    
+    //     }  
+    //         }  
     //    else 
     //    {
-     //     statements
+    //     statements
     //    }
 
 
@@ -19,13 +22,15 @@
     // }
 
 
-    var a=50;
+    var a=90;
     var b=80;
     if(a>b)
     {
-        console.log("a is greter than b");
+        if(a!=0 && b!=0)
+        {
+        console.log("a is greter than b and a and b both are positive numbers");
+        }
     }
-
     else 
     {
         console.log("a is less than b");
