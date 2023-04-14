@@ -1,0 +1,43 @@
+{
+"foodmenu":[
+    
+        {
+       "id":101,
+       "fodname":"manchow",
+       "price":145,
+       "qty":1
+    },
+    {
+        "id":102,
+        "fodname":"manchurians",
+        "price":185,
+        "qty":1
+     },
+
+     {
+        "id":103,
+        "fodname":"gujrati",
+        "price":185,
+        "qty":1
+     }
+],
+
+"employeelist":[
+    
+    {
+   "empid":101,
+   "name":"jay",
+   "salary":145,
+   "age":45
+},
+
+{
+    "empid":102,
+    "name":"prit",
+    "salary":145,
+    "age":45
+ }
+ 
+]
+
+}
