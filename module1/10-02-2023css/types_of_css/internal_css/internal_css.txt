@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+
+h1 
+{
+    color: blue; font-size: 48px; text-align: center;
+}
+
+p{
+    color: green; width:70%; margin: auto; height: auto;
+}
+    </style>
+</head>
+<body>
+
+    <h1>Hi i am brijesh</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vel tempore delectus autem rerum minus fugit, et saepe id vero ducimus aliquid adipisci quaerat qui praesentium culpa quod quam animi?</p>
+    
+</body>
+</html>
