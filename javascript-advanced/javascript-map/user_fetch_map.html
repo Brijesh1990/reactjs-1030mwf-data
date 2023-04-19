@@ -1,0 +1,50 @@
+<script>
+let userinfo=[
+{
+ email:'bkpandey@gmail.com',
+ password:'brij321',   
+ firstname:"brijesh",
+ lastname:"pandey",
+ age:'32 years'        
+},
+{
+ email:'rahul@gmail.com',
+ password:'r321', 
+ firstname:"rahul",
+ lastname:"sharma",
+ age:'22 years'          
+},
+{
+ email:'sneha@gmail.com',
+ password:'s321', 
+ firstname:"sneha",
+ lastname:"patel",
+ age:'22 years'         
+},
+
+{
+email:'prit@gmail.com',
+ password:'r321', 
+ firstname:"prit",
+ lastname:"patel",
+ age:'22 years'         
+},
+
+{
+email:'vishal@gmail.com',
+ password:'v321', 
+ firstname:"vishal",
+ lastname:"jhunjunwala",
+ age:'22 years'         
+},
+]
+
+// apply map to fetc each data from array listing of employee apply map with callback function
+
+let listinfo=userinfo.map(test);
+function test(listinfo)
+{
+    console.log(listinfo.email+" "+listinfo.password+" "+listinfo.firstname+" "+listinfo.lastname+" "+listinfo.age);
+}
+
+</script>
