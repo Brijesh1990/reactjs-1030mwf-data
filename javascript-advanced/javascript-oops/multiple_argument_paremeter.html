@@ -1,0 +1,19 @@
+<script>
+    class Pet //ntialization of class
+    {
+        constructor(name,address,food) //intialization method
+        {
+            this.name=name; //store values
+            this.address=address;
+            this.food=food;
+        }
+        display() //difine functions
+        {
+            document.write("My pet name is :"+this.name+"<br>"+"duggu address is :"+this.address+ "<br>"+"duggu eat food is  :"+this.food);
+        }
+    }
+    // initalize object
+    // here new Pet() is an object of class Pet
+    var obj=new Pet("duggu","behind alap green city rajkot","pedigiri");
+    obj.display(); //call method or functions
+</script>

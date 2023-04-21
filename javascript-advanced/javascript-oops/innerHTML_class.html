@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        /* what is object :
+            object is an instances of class   
+            or
+            object is an examples of class  
+            object is an group of class
+            object is intialize with new keyword
+            object is same name of class with new keyword
+        */
+    
+        class Add
+        {
+            constructor(a,b)
+            {
+                this.a=a;
+                this.b=b;
+                
+            }
+            test(a,b)
+            {
+                // var c=this.a+this.b;
+                // document.write("Additions of number is :",c);
+                var c=this.a+this.b;
+                // document.write("Additions of number is :",c);
+                return c;
+            }
+        }
+    
+        var ob=new Add(10,56); // new Add() is an object of class Add
+        // document.write("Additions of numbers is :",ob.test());
+        document.getElementById("demo").innerHTML="Additions of numbers is :"+ob.test();
+    
+    </script>
+</body>
+</html>

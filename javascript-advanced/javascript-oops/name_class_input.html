@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+     <p id="demo"></p>
+    <center>
+    <form>
+        <input type="text" name="nm" id="nam" placeholder="Name *" required>
+        <br><br>
+        <button type="button" name="sub" onclick="test()">check</button>
+       
+    </form>
+    
+    </center>
+
+    <script>
+        /* what is object :
+            object is an instances of class   
+            or
+            object is an examples of class  
+            object is an group of class
+            object is intialize with new keyword
+            object is same name of class with new keyword
+        */
+       function test()
+       {
+        class Add
+        {
+            constructor(nm)
+            {
+                this.nm=nm;   
+            }
+            test(nm)
+            {
+                 var name=document.getElementById("nam").value;
+                 document.getElementById("demo").innerHTML="My name is :"+name;
+            }
+        }
+        var ob=new Add(); // new Add() is an object of class Add
+        // document.write("Additions of numbers is :",ob.test());
+        ob.test();
+    
+    }
+    </script>
+</body>
+</html>
